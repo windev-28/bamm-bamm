@@ -69,3 +69,11 @@ footer{padding:24px 0 96px;text-align:center;color:var(--muted);font-size:14px}
   text-shadow:0 2px 4px rgba(0,0,0,.6);
   font-weight:700;
 }
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+.tab{font:700 17px Nunito,sans-serif;padding:11px 22px;border-radius:999px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.tab.active{background:var(--yellow);border-color:var(--yellow);color:#14213d}
+.tab:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+.videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.videos video{width:100%;aspect-ratio:16/9;object-fit:cover;background:#000;border-radius:22px;border:2px solid var(--line)}
+.videos-box{margin-top:40px}
+.videos-box h3{font-size:26px;margin-bottom:6px}

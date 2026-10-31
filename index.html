@@ -13,7 +13,7 @@
 <body>
 <header class="top"><div class="wrap">
 <a class="logo" href="#inicio">Bamm Bamm</a>
-<nav><a href="#catalogo">Catálogo</a><a href="#como">Cómo rentar</a><a href="#faq">Preguntas</a><a class="cta btn alt" style="padding:8px 16px;font-size:15px" href="#contacto">Cotizar</a></nav>
+<nav><a href="#catalogo">Catálogo</a><a href="#videos">Videos</a><a href="#como">Cómo rentar</a><a href="#faq">Preguntas</a><a class="cta btn alt" style="padding:8px 16px;font-size:15px" href="#contacto">Cotizar</a></nav>
 </div></header>
 
 <main id="inicio">
@@ -31,8 +31,23 @@
 
 <section id="catalogo"><div class="wrap">
 <h2>Catálogo</h2>
-<p class="sub">Precios por 4 horas de renta. Toca un inflable para preguntar disponibilidad en tu fecha.</p>
+<p class="sub">Elige una categoría y toca el producto que te interesa para preguntar disponibilidad en tu fecha.</p>
+<div class="tabs" role="tablist">
+  <button class="tab active" role="tab" aria-selected="true" data-cat="inflables">Inflables</button>
+  <button class="tab" role="tab" aria-selected="false" data-cat="mobiliario">Mobiliario</button>
+  <button class="tab" role="tab" aria-selected="false" data-cat="toldos">Toldos</button>
+</div>
 <div class="grid" id="grid"></div>
+
+<div id="videos-inflables" class="videos-box">
+  <h3>Mira nuestros inflables</h3>
+  <p class="sub">Así se ven en una fiesta real.</p>
+  <div class="videos">
+    <video controls preload="none" playsinline poster="fotos/Brincolin-princesa.jpeg">
+      <source src="videos/Brincolin-princesa.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
 </div></section>
 
 <section id="como" style="padding-top:0"><div class="wrap">
@@ -58,7 +73,7 @@
 <section id="contacto" style="padding-top:0"><div class="wrap">
 <div class="contact">
 <h2>Aparta tu fecha</h2>
-<p>Responde rápido por WhatsApp: 524441773287</p>
+<p>Responde rápido por WhatsApp: 444-177-3287</p>
 <p>San Luis Potosí, SLP · Lunes a domingo, 9:00 a 20:00</p>
 <div><a class="btn" data-wa="Hola, quiero apartar una fecha para mi fiesta.">Escribir por WhatsApp</a></div>
 </div>
