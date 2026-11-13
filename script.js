@@ -14,11 +14,21 @@ var CATALOGO = {
   mobiliario: [
     {n:"Sillas Tiffany", f:"fotos/sillas-tifany.jpeg", e:"🪑", c:"#c3a6ff", m:"Precio por silla", p:"$700"},
     {n:"mesa rectangular", f:"fotos/mesa-rectangular.jpeg", e:"🪑", c:"#c3a6ff", m:"Precio por mesa", p:"$700"},
-    {n:"mesa infantil", f:"fotos/mesa-infantil.jpeg", e:"🪑", c:"#c3a6ff", m:"Precio por mesa infantil", p:"$700"}
+    {n:"mesa infantil", f:"fotos/mesa-infantil.jpeg", e:"🪑", c:"#c3a6ff", m:"Precio por mesa infantil", p:"$700"},
+    {n:"mesa rectangular2", f:"fotos/mesa-rectangular2.jpeg", e:"🪑", c:"#c3a6ff", m:"Precio por mesa", p:"$700"},
+    {n:"mesa rectangular3", f:"fotos/mesa-rectangular3.jpeg", e:"🪑", c:"#c3a6ff", m:"Precio por mesa", p:"$700"},
+    {n:"mesa rectangular4", f:"fotos/mesa-rectangular4.jpeg", e:"🪑", c:"#c3a6ff", m:"Precio por mesa", p:"$700"},
+    {n:"mesa rectangular5", f:"fotos/mesa-rectangular5.jpeg", e:"🪑", c:"#c3a6ff", m:"Precio por mesa", p:"$700"}
+    
   ],
   toldos: [
-    {n:"Toldo 4 x 4 m", f:"fotos/toldo.jpeg",e:"⛺", c:"#ffc93c", m:"Medidas por confirmar", p:"Cotiza"}
-  ]
+    {n:"Toldo 4 x 4 m", f:"fotos/toldo.jpeg",e:"⛺", c:"#ffc93c", m:"Medidas por confirmar", p:"Cotiza"},
+    {n:"Toldo-1", f:"fotos/toldo-1.jpeg",e:"⛺", c:"#ffc93c", m:"Medidas por confirmar", p:"Cotiza"},
+    {n:"Toldo-2", f:"fotos/toldo-2.jpeg",e:"⛺", c:"#ffc93c", m:"Medidas por confirmar", p:"Cotiza"},
+    {n:"Toldo-3", f:"fotos/toldo-3.jpeg",e:"⛺", c:"#ffc93c", m:"Medidas por confirmar", p:"Cotiza"},
+    {n:"Toldo-4", f:"fotos/toldo-4.jpeg",e:"⛺", c:"#ffc93c", m:"Medidas por confirmar", p:"Cotiza"},
+    {n:"Toldo-5", f:"fotos/toldo-5.jpeg",e:"⛺", c:"#ffc93c", m:"Medidas por confirmar", p:"Cotiza"}
+  ],
 };
 
 function wa(t){return "https://wa.me/"+TEL+"?text="+encodeURIComponent(t)}
